@@ -13,6 +13,7 @@
 		D99FBD0026E69D4D004254F2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D99FBCFE26E69D4D004254F2 /* Main.storyboard */; };
 		D99FBD0226E69D4F004254F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D99FBD0126E69D4F004254F2 /* Assets.xcassets */; };
 		D99FBD0526E69D4F004254F2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D99FBD0326E69D4F004254F2 /* LaunchScreen.storyboard */; };
+		D9FBB3B226EFEE9F00993549 /* ShoppingScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9FBB3B126EFEE9F00993549 /* ShoppingScreenViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		D99FBD0126E69D4F004254F2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D99FBD0426E69D4F004254F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D99FBD0626E69D4F004254F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9FBB3B126EFEE9F00993549 /* ShoppingScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingScreenViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		D99FBCF726E69D4D004254F2 /* BiometrySample */ = {
 			isa = PBXGroup;
 			children = (
+				D9FBB3B026EFEDF600993549 /* Shopping Screen */,
 				D99FBCF826E69D4D004254F2 /* AppDelegate.swift */,
 				D99FBCFC26E69D4D004254F2 /* MainVC.swift */,
 				D99FBCFE26E69D4D004254F2 /* Main.storyboard */,
@@ -65,6 +68,14 @@
 				D95FDAD026EC368800A5C349 /* ProductListVCViewController.swift */,
 			);
 			path = BiometrySample;
+			sourceTree = "<group>";
+		};
+		D9FBB3B026EFEDF600993549 /* Shopping Screen */ = {
+			isa = PBXGroup;
+			children = (
+				D9FBB3B126EFEE9F00993549 /* ShoppingScreenViewController.swift */,
+			);
+			path = "Shopping Screen";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +148,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D9FBB3B226EFEE9F00993549 /* ShoppingScreenViewController.swift in Sources */,
 				D95FDAD126EC368800A5C349 /* ProductListVCViewController.swift in Sources */,
 				D99FBCFD26E69D4D004254F2 /* MainVC.swift in Sources */,
 				D99FBCF926E69D4D004254F2 /* AppDelegate.swift in Sources */,
