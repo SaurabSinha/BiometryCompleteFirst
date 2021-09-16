@@ -67,7 +67,7 @@ let context = LAContext()
         case LAError.invalidContext:
             message = "The context is invalid"
         case LAError.passcodeNotSet:
-            message = "Passcode is not set on the device"
+            message = "Passcode is not set on the ios device"
         case LAError.systemCancel:
             message = "Authentication was cancelled by the system"
         case LAError.biometryLockout:
