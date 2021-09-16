@@ -73,7 +73,7 @@ let context = LAContext()
         case LAError.biometryLockout:
             message = "Too many failed attempts"
         case LAError.biometryNotAvailable:
-            message = "Touch ID is not available on the device"
+            message = "Touch ID is not available on the ios device"
         case LAError.userCancel:
             message = "The user did cancel"
         case LAError.userFallback:
